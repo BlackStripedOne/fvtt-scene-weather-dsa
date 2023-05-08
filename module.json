@@ -1,0 +1,72 @@
+{
+    "id": "scene-weather-dsa",
+    "title": "Scene Weather DSA",
+    "description": "Integration of the SceneWeather module features into The Dark Eye game system based on the TDEe5 rules.",
+    "library": false,
+    "manifestPlusVersion": "1.2.0",
+    "authors": [
+      {
+        "name": "BlackStripedOne",
+        "discord": "BlackStripedOne#7257",
+        "url": "https://github.com/BlackStripedOne"
+      }
+    ],
+    "compatibility": {
+      "minimum": "10",
+      "verified": "10.291",
+      "maximum": "11"
+    },
+    "relationships": {
+      "systems": [{
+          "id": "dsa5",
+          "type": "system",
+          "compatibility": [
+            {
+              "minimum": "4.2.6",
+              "verified": "4.2.8"
+            }
+          ]
+        }],
+      "requires": [],
+      "optional": [],
+      "flags": {
+        "optional": []
+      }
+    },
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "languages/en.json"
+      },
+      {
+        "lang": "de",
+        "name": "Deutsch",
+        "path": "languages/de.json"
+      }
+    ],
+    "license": "https://raw.githubusercontent.com/BlackStripedOne/fvtt-scene-weather-dsa/main/LICENSE",
+    "readme": "https://blackstripedone.github.io/fvtt-scene-weather-dsa/",
+    "esmodules": [
+      "/scene-weather-dsa.min.js"
+    ],
+    "scripts": [],
+    "styles": [
+      "/scene-weather-dsa.min.css"
+    ],
+    "media": [
+      {
+        "type": "icon",
+        "url": "https://avatars.githubusercontent.com/u/123573329?v=4"
+      }
+    ],
+    "protected": false,
+    "coreTranslation": false,
+    "packs": [],
+    "socket": false,
+    "version": "development",
+    "url": "-",
+    "manifest": "-",
+    "download": "-"
+  }
+  

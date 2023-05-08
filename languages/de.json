@@ -1,0 +1,6 @@
+{
+    "sceneweatherdsa": { 
+      "foundryVersionCheck": "{module} setzt Foundry VTT Version {minVersion} oder neuer voraus. {module} funktioniert eventuell nicht wie erwartet mit Version {gameVersion}."
+    }
+  }
+  

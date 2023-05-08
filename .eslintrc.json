@@ -1,0 +1,82 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:prettier/recommended",
+      "plugin:unicorn/recommended"
+    ],
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "globals": {
+        "canvas": true,
+        "ui": true,
+        "foundry": true,
+        "MouseInteractionManager": true,
+        "Hooks": true,
+        "FormApplication": true,
+        "ChatMessage": true,
+        "$": true,
+        "game": true,
+        "Draggable": true,
+        "SceneWeather": true,
+        "Macro": true,
+        "Application": true,
+        "Handlebars": true,
+        "PIXI": true,
+        "CanvasAnimation": true,
+        "randomID": true,
+        "renderTemplate": true,
+        "CONFIG": true,
+        "Dialog": true,
+        "loadTemplates": true,
+        "SimpleCalendar": true,
+        "InteractionLayer": true,
+        "CONST": true,
+        "getType": true,
+        "Tabs": true
+    },
+    "rules": {
+        "indent": [
+            "error",
+            2
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "never"
+        ],
+        "unicorn/prevent-abbreviations": "off",
+        "unicorn/prefer-ternary": "off",
+        "unicorn/numeric-separators-style": "off",
+        "unicorn/no-negated-condition": "off",
+        "unicorn/no-zero-fractions": "off",
+        "unicorn/no-lonely-if": "off",
+        "unicorn/filename-case": [
+            "error",
+            {
+                "case": "camelCase"
+            }
+        ],
+        "unicorn/prefer-type-error": "off",
+        "unicorn/switch-case-braces": "off",
+        "unicorn/prefer-query-selector": "off",
+        "unicorn/no-array-reduce": "off",
+        "unicorn/no-useless-switch-case": "off",
+        "unicorn/prefer-dom-node-remove": "off"
+    }
+  }
+  
